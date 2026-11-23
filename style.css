@@ -74,6 +74,11 @@ nav a:hover{
     background: #39d6a0;
     border-radius:50% ;
 }
+#clock {
+    color: white;
+    margin-left: 10px;
+    font-family: monospace;
+}
 
 button {
     background: #287ee8;
