@@ -76,7 +76,7 @@ nav a:hover{
 }
 #clock {
     color: white;
-    margin-left: 10px;
+    margin-left: 15px;
     font-family: monospace;
 }
 
@@ -94,7 +94,66 @@ button:hover {
     background: #1765c3;
 }
 
+footer {
+    height: 40px;
+    color:#edf4ff ;
+      background-color: #1765c3;
+    text-align: center;
+    border: 1px solid #1765c3;
+    border-top: #54a5ff;
+    padding: 15px;
+    font-size: 12px;
+}
 
+.page {
+    padding: 40px 5%;
+}
+
+.page h2 {
+    margin-bottom: 10px;
+}
+
+.page p {
+    margin-bottom: 20px;
+    color: #91a8c5;
+}
+
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 25px;
+}
+
+.kpi-card {
+    padding: 22px;
+    background: #14243a;
+    border: 1px solid #2a4262;
+    border-radius: 12px;
+}
+
+.kpi-card span {
+    color: #91a8c5;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.kpi-card h2 {
+    color: #54a5ff;
+    font-size: 29px;
+    margin: 14px 0 8px;
+}
+
+.kpi-card p {
+    color: #91a8c5;
+    font-size: 12px;
+}
+
+.kpi-card:hover {
+     border-color: #54a5ff;
+     transform: translateY(-3px);  
+}
 
 
 
